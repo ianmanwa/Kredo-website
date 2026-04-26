@@ -3,21 +3,3 @@ body{
     color: #fff;
     background-color: #111;
 }
-
-.main-card {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.card{
-    display: flex;
-    background-color: #222;
-    width: 600px;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balloon game</title>
-    <link rel="stylesheet" href="../Css/Dashboard.css">
     <link rel="stylesheet" href="../Css/Balloon.css">
-    
+    <link rel="stylesheet" href="../Css/Dashboard.css">
+    <title>Balloon Game</title>
 </head>
-<body>
-    
 
-<!-- NAVBAR -->
-   <!-- NAVBAR -->
+
+
+<body>
+
+     <!-- NAVBAR -->
     <div class="navbar">
         <a href="Dashboard.html" class="logo-link"> <h2> MANWA </h2> </a>
 
@@ -24,8 +25,65 @@
     </div>
 
 
-   
+
+    <!-- Coins are shown here -->
+    <div class="balance-container">
+        <div class="balance-class">
+            <p id="balance-id"></p>
+        </div>
+    </div>
 
 
+    <!-- Video and Counter are displayed here -->
+    <div id="container-id" class="container-class">
+        <video id="video-id" height="400px" src="../images/Hot air baloon.mp4" type="video/mp4" autoplay loop></video>
+        <p id="counter-id" class="overlay-text">0 meters</p>
+    </div>
+
+    <!-- Question is displayed here -->
+    <div id="ask-id" class="ask-class">
+
+        <div class="inside-ask">
+            <p>How high do you want to go pilot?</p>
+
+            <form id="form-id" class="form-class">
+                <input id="input-id" type="number" placeholder="x meters">
+
+
+                <div>
+                    <button type="submit" id="play-btn" class="play-btn-class"> Take off </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Win screen -->
+    <div id="win-id" class="win-class">
+        <div class="win-class-inner">
+        <p>Congrats!</p>
+        <p id="win-amount">You won</p>
+        <button id="win-btn" class="win-btn-class" onclick="redirect()"> Play again </button>
+        </div>
+    </div>
+
+    <!-- Lose screen -->
+    <div id="lose-id" class="lose-class">
+        <div class="lose-class-inner">
+        <p>Oh, no!</p>
+        <p id="lose-amount">You Lost</p>
+         <button id="lose-btn" class="lose-btn-class" onclick="redirect()"> Play again </button>
+         </div>
+    </div>
+
+
+
+
+<script src="../Javascript/Balloon.js"></script>
 </body>
+
 </html>

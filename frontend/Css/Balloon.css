@@ -1,5 +1,158 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     background-color: #111;
+}
+
+.navbar {
+    display: flex;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.container-class {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay-text {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ask-class {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inside-ask {
+    margin-top: 1rem;
+    background-color: rgb(0, 185, 209);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+}
+
+.form-class {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.play-btn-class {
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-weight: bold;
+    background-color: rgb(0, 243, 0);
+
+}
+
+/* Balance Container stylings */
+.balance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.balance-class {
+    background-color: brown;
+    border-radius: 10px;
+    width: 200px;
+    color: White;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* STYLING THE WIN DIV */
+.win-class {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.win-class-inner {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.win-btn-class{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+/* STYLING THE LOSE DIV */
+.lose-class {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lose-class-inner {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.lose-btn-class{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 }
